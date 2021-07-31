@@ -15,7 +15,7 @@ namespace SimpleAPI.Tests
             //Act
             var output = wController.FetchData(1);
             //assert
-            Assert.Equal("Rachna Singh2",output);
+            Assert.Equal("Rachna Singh",output);
         }
     }
 }
